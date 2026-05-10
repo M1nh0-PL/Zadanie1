@@ -1,4 +1,4 @@
-# Technologie Chmurowe — Zadanie 1 #
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cb38a4f4-d2a5-4063-8d1b-cd439949a005" /><img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/106d3f54-5ca3-4f5f-bc86-e387f4bb1c32" /># Technologie Chmurowe — Zadanie 1 #
 
 ## Autor: Ireneusz Witek ##
 
@@ -39,6 +39,10 @@ docker logs pogoda
 ```bash
 docker history pogoda-app
 ```
+
+Całkowity rozmiar obrazu: docker images node-pogoda:v3 50.7 MB 
+Ilość warstw: docker history node-pogoda:v3 7 warstw
+
 ![](screens/3.png)
 
 ## Część DODATKOWA ##
