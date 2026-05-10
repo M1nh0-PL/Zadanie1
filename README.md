@@ -43,8 +43,11 @@ docker history pogoda-app
 
 ## Część DODATKOWA ##
 ## Zadanie 1 ##
+Polecenia: 
 ```bash
 docker buildx version
+```
+```bash
 docker buildx create --driver docker-container --name mybuilder --use --bootstrap
 ```
 ![](screens/4.png)
