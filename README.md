@@ -43,11 +43,35 @@ docker history pogoda-app
 
 ## Część DODATKOWA ##
 ## Zadanie 1 ##
-Polecenia: 
-```bash
-docker buildx version
-```
+W ramach zadania przygotowano obraz kontenera zgodny ze standardem OCI przeznaczony dla dwóch platform sprzętowych:
+
+- `linux/amd64`
+- `linux/arm64`
+
+Do budowy obrazu wykorzystano mechanizm `Docker Buildx` oraz builder oparty na sterowniku `docker-container`.
+
+## Utworzenie buildera ##
+
 ```bash
 docker buildx create --driver docker-container --name mybuilder --use --bootstrap
 ```
 ![](screens/4.png)
+
+## Budowanie i publikacja obrazu wieloplatformowego
+
+```bash
+docker buildx build \
+--platform linux/amd64,linux/arm64 \
+-t ireneuszwitek/pogoda-app:latest \
+--push .
+```
+![](screens/5.png) 
+
+## Weryfikacja manifestu OCI
+
+W celu potwierdzenia poprawności utworzonego manifestu wykorzystano polecenie:
+
+```bash
+docker buildx imagetools inspect ireneuszwitek/pogoda-app:latest
+```
+![](screens/6.png) 
