@@ -1,1 +1,5 @@
-## Technologie Chmurowe — Zadanie 1 
+## Technologie Chmurowe — Zadanie 1 ##
+
+## Autor: Ireneusz Witek ##
+
+## Opis zadania: ##
