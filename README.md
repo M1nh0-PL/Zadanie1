@@ -40,3 +40,11 @@ docker logs pogoda
 docker history pogoda-app
 ```
 ![](screens/3.png)
+
+## Część DODATKOWA ##
+## Zadanie 1 ##
+```bash
+docker buildx version
+docker buildx create --driver docker-container --name mybuilder --use --bootstrap
+```
+![](screens/4.png)
