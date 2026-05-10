@@ -12,4 +12,5 @@ W projekcie zastosowano również:
 - zgodność ze standardem OCI poprzez dodanie odpowiednich etykiet obrazu.
 
 ## Działanie aplikacji: ##
-
+!(screens/7.png)
+!(screens/8.png)
