@@ -20,9 +20,23 @@ W projekcie zastosowano również:
 ```bash
 docker build -t pogoda-app .
 ```
-## b. Budowanie obrazu
+## b. Uruchomienie kontenera
 
 ```bash
 docker run -d -p 8080:8080 --name pogoda pogoda-app
 ```
 ![](screens/1.png)
+
+## c. Uzyskanie informacji z logów
+
+```bash
+docker logs pogoda
+```
+![](screens/2.png)
+
+## d. Sprawdzenie ilości warstw oraz rozmiaru obrazu
+
+```bash
+docker history pogoda-app
+```
+![](screens/3.png)
