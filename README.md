@@ -10,3 +10,6 @@ W projekcie zastosowano również:
 - mechanizm `HEALTHCHECK` monitorujący stan aplikacji,
 - uruchamianie aplikacji z poziomu użytkownika nie-root,
 - zgodność ze standardem OCI poprzez dodanie odpowiednich etykiet obrazu.
+
+## Działanie aplikacji: ##
+
