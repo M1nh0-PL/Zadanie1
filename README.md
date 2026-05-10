@@ -14,3 +14,15 @@ W projekcie zastosowano również:
 ## Działanie aplikacji: ##
 ![](screens/7.png)
 ![](screens/8.png)
+
+## a. Budowanie obrazu
+
+```bash
+docker build -t pogoda-app .
+```
+## b. Budowanie obrazu
+
+```bash
+docker run -d -p 8080:8080 --name pogoda pogoda-app
+```
+![](screens/1.png)
