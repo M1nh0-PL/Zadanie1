@@ -40,8 +40,8 @@ docker logs pogoda
 docker history pogoda-app
 ```
 
-Całkowity rozmiar obrazu: docker images node-pogoda:v3 50.7 MB 
-Ilość warstw: docker history node-pogoda:v3 7 warstw
+Całkowity rozmiar obrazu: 50.7 MB 
+Ilość warstw: 7 warstw
 
 ![](screens/3.png)
 
